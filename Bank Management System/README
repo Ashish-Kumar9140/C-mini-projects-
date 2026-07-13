@@ -1,0 +1,174 @@
+#  Bank Management System (C++)
+
+A simple <b>Bank Management System</b> developed in C++ using Object-Oriented Programming (OOP) concepts and File Handling. 
+This project allows users to create bank accounts, deposit and withdraw money, search for an account, and display all accounts. 
+The account information is stored permanently in a text file.
+
+# Features
+
+* Create a New Bank Account
+* Deposit Money
+* Withdraw Money
+* Search Account by Account Number
+* Display All Accounts
+* Persistent Data Storage using File Handling
+* Menu-Driven Console Interface
+
+#Technologies Used
+
+* C++
+* Object-Oriented Programming (Classes & Objects)
+* STL (`vector`)
+* File Handling (`fstream`)
+* Console Application
+
+# Project Structure
+
+```text
+Bank-Management-System/
+│
+├── main.cpp        # Source Code
+├── bank.txt        # Stores Account Information
+└── README.md       # Project Documentation
+```
+
+# How It Works
+
+The application loads all existing account details from *bank.txt* when it starts.
+
+Users can perform different banking operations through a menu-driven interface.
+
+Whenever an account is created, updated, or modified, the latest data is automatically saved back into the file.
+
+This ensures that account information is preserved even after closing the application.
+
+#Menu Options
+
+```text
+===== BANK MANAGEMENT SYSTEM =====
+
+1. Create Account
+2. Deposit Money
+3. Withdraw Money
+4. Search Account
+5. Display All Accounts
+6. Exit
+```
+# Sample Output
+
+```text
+===== BANK MANAGEMENT SYSTEM =====
+
+1. Create Account
+2. Deposit Money
+3. Withdraw Money
+4. Search Account
+5. Display All Accounts
+6. Exit
+
+Enter Choice: 1
+
+Enter Account Number: 101
+Enter Name: Ashish Prajapati
+Enter Initial Balance: 5000
+
+Account Created Successfully
+```
+#File Storage
+
+Account information is stored in a text file named:
+
+```text
+bank.txt
+```
+Example:
+
+```text
+101 Ashish 5000
+102 Aman 12000
+103 Ankit 8000
+```
+
+The file is automatically updated after every successful transaction.
+
+
+
+# Concepts Used
+
+* Classes & Objects
+* Encapsulation
+* Vectors (STL)
+* File Handling (`ifstream` / `ofstream`)
+* Functions
+* Loops
+* Conditional Statements
+* Menu-Driven Programming
+
+
+
+# Functions Implemented
+
+| Function             | Description                                 |
+| -------------------- | ------------------------------------------- |
+| `createNewAccount()` | Creates a new bank account                  |
+| `deposit()`          | Deposits money into an account              |
+| `withdraw()`         | Withdraws money after checking the balance  |
+| `showAccount()`      | Displays details of a specific account      |
+| `showAllAccounts()`  | Displays all saved accounts                 |
+| `saveData()`         | Saves account information to a file         |
+| `loadData()`         | Loads saved account information from a file |
+
+
+
+# How to Run
+
+Compile the program:
+
+```bash
+g++ bank.cpp -o bank
+```
+
+Run the executable:
+
+```bash
+./bank
+```
+
+For Windows (MinGW):
+
+```bash
+g++ main.cpp -o bank && bank.exe
+```
+# Future Improvements
+
+* Login Authentication
+* Delete Account
+* Update Account Details
+* Transaction History
+* Interest Calculation
+* Money Transfer Between Accounts
+* Password-Protected Accounts
+* Binary File Storage
+* GUI using Qt or C#
+* Database Integration (MySQL/SQLite)
+
+
+
+# Learning Outcomes
+
+This project demonstrates practical implementation of:
+
+* Object-Oriented Programming in C++
+* File Handling
+* Data Persistence
+* Menu-Driven Applications
+* STL Containers
+* Basic Banking Operations
+
+It is an excellent beginner-level C++ project for students learning OOP and file handling concepts.
+
+# Author
+
+Ashish Prajapati
+
+If you found this project helpful, consider giving it a ⭐ on GitHub.
