@@ -42,6 +42,7 @@ Whenever an account is created, updated, or modified, the latest data is automat
 
 This ensures that account information is preserved even after closing the application.
 
+
 #Menu Options
 
 ```text
