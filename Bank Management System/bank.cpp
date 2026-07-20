@@ -70,7 +70,7 @@ void createNewAccount() {
 
         if(a.accountNumber == acc.accountNumber) {
 
-            cout <<  "=======This Account Number already exists!======= USE DIFFRENT ACCOUNT NO. \n";
+            cout <<  "<===This Account Number already exists!===> \nUSE DIFFRENT ACCOUNT NO.\n";
             return;
         }
     }
