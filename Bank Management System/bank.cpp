@@ -242,7 +242,7 @@ int main() {
                     break;
                 }else{
                     cout<<"WRONE PASS CODE";
-                    choice =5;
+    
                     break;
                 }
 
