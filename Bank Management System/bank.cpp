@@ -1,10 +1,8 @@
 #include <iostream>
 #include <fstream>
 #include <vector>
-
 using namespace std;
 // Defining Class Account;
-
 class Account {
 public:
     int accountNumber;
@@ -32,7 +30,6 @@ public:
 };
 
 // All Function definition Start from here...
-
 vector<Account> accounts;
 
 
@@ -66,8 +63,17 @@ void loadData() {
 void createNewAccount() {
 
     Account acc;
+    
 
     acc.createAccount();
+     for(auto &a : accounts) {
+
+        if(a.accountNumber == acc.accountNumber) {
+
+            cout <<  "=======This Account Number already exists!======= USE DIFFRENT ACCOUNT NO. \n";
+            return;
+        }
+    }
 
     accounts.push_back(acc);
 
@@ -84,6 +90,11 @@ void deposit() {
 
     cout << "Enter Account Number: ";
     cin >> number;
+
+    if(amount <= 0){
+    cout<<"Invalid Amount\n";
+    return;
+}
 
 
     for(auto &acc : accounts) {
@@ -114,6 +125,11 @@ void withdraw() {
 
     cout << "Enter Account Number: ";
     cin >> number;
+
+    if(amount <= 0){
+    cout<<"Invalid Amount\n";
+    return;
+}
 
 
     for(auto &acc : accounts) {
@@ -218,8 +234,19 @@ int main() {
                 break;
 
             case 5:
-                showAllAccounts();
-                break;
+                cout<< " ENTER ADMIN PASS CODE :";
+                int pass;
+                cin>>pass;
+                if(pass == 1234){
+                    showAllAccounts();
+                    break;
+                }else{
+                    cout<<"WRONE PASS CODE";
+                    choice =5;
+                    break;
+                }
+
+                
 
             case 6:
                 cout << "Thank You!";
