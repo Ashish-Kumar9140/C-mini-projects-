@@ -146,6 +146,6 @@ Score = 80/100
 
 # Author
 
-Ashish Prajapati
+<b>Ashish Prajapati</b>
 
 If you like this project, don't forget to ⭐ star the repository.
