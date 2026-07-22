@@ -1,6 +1,6 @@
 # Guess the Number Game (C++)
 
-A simple console-based Guess the Number Game developed in C++.  
+A simple console-based Guess the **Number Game** developed in C++.  
 The computer randomly selects a number within a user-defined range, and the player tries to guess it with hints provided after each attempt.
 
 
