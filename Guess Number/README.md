@@ -144,8 +144,8 @@ Score = 80/100
 
 ---
 
-## 👨‍💻 Author
+# Author
 
-**Ashish Prajapati**
+Ashish Prajapati
 
 If you like this project, don't forget to ⭐ star the repository.
