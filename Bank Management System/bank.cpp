@@ -244,9 +244,6 @@ int main() {
                     cout<<"WRONE PASS CODE";
                     break;
                 }
-
-                
-
             case 6:
                 cout << "Thank You!";
                 break;
