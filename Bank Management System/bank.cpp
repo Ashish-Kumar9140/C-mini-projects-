@@ -237,10 +237,13 @@ int main() {
                 cout<< " ENTER ADMIN PASS CODE :";
                 int pass;
                 cin>>pass;
-                if(pass == 1234){
+                if(pass == 1234)
+                {
                     showAllAccounts();
                     break;
-                }else{
+                }
+                else
+                {
                     cout<<"WRONE PASS CODE";
                     break;
                 }
