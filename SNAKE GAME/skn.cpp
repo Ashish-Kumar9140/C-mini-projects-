@@ -215,10 +215,10 @@ cout << "        SNAKE GAME\n";
 cout << "=============================\n\n";
 
 cout << "Controls:\n";
-cout << "↑  Move Up\n";
-cout << "↓  Move Down\n";
-cout << "←  Move Left\n";
-cout << "→  Move Right\n";
+cout << "UP ARROW KEY-->   Move Up\n";
+cout << "DOWN ARROW KEY--> Move Down\n";
+cout << "LEFT ARROW KEY--> Move Left\n";
+cout << "RIGHT ARROW KEY-->Move Right\n";
 cout << "X  Exit Game\n\n";
 
 cout << "Press any key to start...";
