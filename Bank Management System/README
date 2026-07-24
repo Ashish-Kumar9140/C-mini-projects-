@@ -1,4 +1,4 @@
-#  Bank Management System (C++)
+##  Bank Management System (C++)
 
 A simple <b>Bank Management System</b> developed in C++ using Object-Oriented Programming (OOP) concepts and File Handling. 
 This project allows users to create bank accounts, deposit and withdraw money, search for an account, and display all accounts. 
