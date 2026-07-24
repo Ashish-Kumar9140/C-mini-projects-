@@ -4,7 +4,7 @@
 #include <ctime>
 
 using namespace std;
-
+// Defining area to play game
 const int WIDTH = 20;
 const int HEIGHT = 20;
 
