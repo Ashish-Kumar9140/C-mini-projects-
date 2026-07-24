@@ -221,7 +221,7 @@ cout << "LEFT ARROW KEY--> Move Left\n";
 cout << "RIGHT ARROW KEY-->Move Right\n";
 cout << "X  Exit Game\n\n";
 
-cout << "Press any key to start...";
+cout << "Press any KEY to start...";
 _getch();
 
     while (!gameOver)
